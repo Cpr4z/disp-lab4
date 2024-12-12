@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+pythonpath = [
+    ".", "app", "flight_service/app",
+]
+asyncio_mode="auto"
